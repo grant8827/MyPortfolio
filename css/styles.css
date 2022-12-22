@@ -1,0 +1,442 @@
+
+.navbar{
+    text-align: center;
+    display: block;
+    margin: 50px;
+}
+
+.site-id{
+    position: relative;
+  
+}
+.site-id{
+    margin: 30px 0 20px 0;
+}
+
+.site-id span{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+.navbar .nav-link{
+  text-align: center;
+  width: 100%;
+
+}
+
+.navbar .nav-link span{
+    color: #fff;
+    font-size: 15px;
+   
+}
+.menu-bars{
+   display: none;
+    
+}
+.menu-bars img{
+  
+    width: 30px;
+}
+
+.nav-link {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 50px 0;
+   
+}
+
+.nav-link .links{
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    margin: 0 0 0 -25px;
+}
+
+.nav-link li{
+    list-style: none;
+}
+
+.nav-link a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(227, 229, 230);
+}
+
+
+.front-page-sectoin{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 0px;
+}
+
+.details{
+    width: 1024px;
+    height: auto;
+    background-color: rgb(236, 243, 250);
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+  
+    box-shadow: rgba(244, 249, 255, 0.35) 0px 5px 15px;
+}
+/*all sections*
+.img-2 .img-3 .img-4{
+    width: 512px;
+}
+
+.info-2 .info-3 .info-4 .info-5{
+    width: 512px;
+} */
+
+
+/*first section*/
+.first{
+    display: flex;
+    margin: 50px 0 0 0;
+   /* background-color: rgb(184, 198, 209);*/
+    background-image: linear-gradient(to bottom left,  rgba(255, 255, 255), rgb(184, 198, 209));
+}
+.img-1 img{
+    width: 300px;
+    border-radius: 40%;
+    background-color: rgb(1, 17, 70);
+}
+.info-1 {
+    width: 512px;
+}
+.img-1 {
+    width: 512px; 
+}
+.info-1 h2{
+    color: rgb(50, 70, 252);
+}
+.info-1 button{
+    background-color: rgb(6, 11, 51);
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+
+
+
+/*second section*/
+.second-section{
+    display: flex;
+    margin: 50px 0 0 0;
+}
+.img-2 img{
+    width: 300px;
+    border-radius: 40%;
+    background-color: rgb(1, 17, 70);
+}
+.info-2 {
+    width: 512px;
+}
+.img-2 {
+    width: 512px; 
+}
+.info-2 h2{
+    color: rgb(50, 70, 252);
+}
+.info-2 button{
+    background-color: rgb(6, 11, 51);
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+
+
+
+/*bonner section*/
+
+.third-section{
+    width: auto;
+    height: 200px;
+    background-image: linear-gradient(90deg, rgb(1, 1, 36), rgb(52, 52, 151));
+    justify-content: center;
+   
+    margin: 50px 0 0 0;
+}
+
+.info-3 h2{
+ 
+    font-size: 40px;
+ padding: 10px;
+ background: -webkit-linear-gradient(45deg, rgb(229, 233, 0), rgb(224, 25, 25));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.info-3 p{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+
+
+.btn-1{
+    background-image: linear-gradient(45deg, rgb(229, 233, 0), rgb(224, 25, 25));
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    margin: 30px;
+    cursor: pointer;
+}  
+
+
+/*forth section*/
+.forth-section{
+    display: flex;
+    margin: 50px 0 0 0;
+    background-color: rgb(184, 198, 209);
+}
+.img-3 img{
+    width: 300px;
+    border-radius: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.info-4 {
+    width: 512px;
+}
+.img-3 {
+    width: 512px; 
+}
+.info-4 h2{
+    color: rgb(50, 70, 252);
+}
+.info-4 button{
+    background-color: rgb(6, 11, 51);
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+/* fifth section*/
+.fifth-section{
+    display: flex;
+    margin: 50px 0 0 0;
+    
+}
+.img-4 img{
+    width: 300px;
+    border-radius: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.info-5 {
+    width: 512px;
+}
+.img-4 {
+    width: 512px; 
+}
+.info-4 h2{
+    color: rgb(50, 70, 252);
+}
+.info- button{
+    background-color: rgb(6, 11, 51);
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+
+/*about page*/
+.about .info-1{
+    margin: auto;
+}
+.first .about{
+    display: flex;
+    justify-content: space-between;
+}
+.ab_info{
+    width: 512px;
+    height: auto;
+    text-align: center;  
+}
+.ab_icon{
+    width: 512px;
+    height: auto;
+}
+.ab_icon .fa-code{
+    color: rgb(16, 89, 197);
+    font-size: 200px;
+}
+
+
+
+/*footer css*/
+.foot-area{
+    display: flex;
+    width: 1024px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+   
+
+}
+.foot-area h3{
+   font-size: 22px;
+   color: #fff;
+}
+.foot-area p{
+   font-size: 15px;
+   color: #fff;
+}
+.foot-head-1 a{
+  margin: 1px;
+  
+}
+/*social links*/
+.foot-head-1 a .fa-facebook-f{
+   font-size: 15px;
+   color: rgb(255, 255, 255);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(52, 50, 211);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-twitter{
+   font-size: 15px;
+   color: rgb(3, 156, 184);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-instagram{
+   font-size: 15px;
+   color: rgb(122, 3, 93);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-globe{
+   font-size: 15px;
+   color: rgb(45, 23, 250);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-youtube{
+   font-size: 15px;
+   color: rgb(219, 0, 0);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-github{
+   font-size: 15px;
+   color: rgb(0, 0, 0);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+.foot-head-1 a .fa-linkedin{
+   font-size: 15px;
+   color: rgb(3, 76, 211);
+   padding: 10px;
+   width: 15px;
+   background-color: rgb(219, 219, 219);
+   border-radius: 50%;
+}
+
+.contact i{
+    margin-right: 12px;
+    line-height: 10px;
+}
+ 
+/*contact css*/
+
+.contact-form-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainform{
+    width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'fauna One', serif;
+    display: flex;
+
+}
+
+#form{
+    border-radius: 2px;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 350px;
+    margin: 20px 250px 0 35px;
+    float: left;
+}
+#form h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+#form input{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius:3px;
+    padding: 5px;
+}
+
+#form input[type=button]{
+    background-color: #123456;
+    border:1px solid white;
+    font-family:'fauna One', serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+#form textarea{
+    width:100%;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+}
+#form label{
+    float: left;
+    margin-top: 10px;
+}
+
+.contact{
+    width: 350;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}

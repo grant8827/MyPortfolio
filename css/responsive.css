@@ -1,0 +1,179 @@
+
+
+@media screen and (max-width: 912px){
+    .nav-link .links{
+        display: block;
+        width: 180px;
+        height: 270px;
+        background-color: rgb(79, 79, 105);
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+   
+    }
+
+    .nav-link .links span{
+      display: none;
+    }
+
+
+
+    .details{
+        width: 450px;
+        height: auto;
+        background-color: rgb(236, 243, 250);
+        margin: auto;
+        border-radius: 20px;
+        padding: 10px;
+      
+        box-shadow: rgba(244, 249, 255, 0.35) 0px 5px 15px;
+    }
+
+    .links li{
+        margin: 30px 0 0 0;
+      
+    }
+    .links a{
+font-size: 25px;    }
+   
+    .menu-bars{
+        display: block;
+
+    }
+
+    .menu-bars img{
+        width: 50px;
+      color: antiquewhite;
+    }
+    .first{
+        display: block;
+        
+    }
+    .info-1{
+position: relative;
+width: auto;
+    }
+    .info-1 p{
+        width: auto;
+        margin:20px;
+    }
+    .img-1 {
+        margin: 20px;
+        width: auto;
+    }
+
+    .second-section{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+
+    .second-section p{
+        width: auto;
+        margin: 0 20 0 0;
+       
+    }
+    .second-section img{
+        margin: 20px;
+    }
+
+    .info-2 {
+        width: auto;
+    }
+    .img-2 {
+        width: auto;
+    }
+
+
+    .third-section{
+        width: auto;
+        height: auto;
+    }
+    .info-3{
+        align-items: center;
+        text-align: center;
+    }
+    .forth-section{
+        display: block; 
+    }
+    .fifth-section{
+        display: block; 
+    }
+    .img-3 {
+        width: auto;
+    }
+
+      /*forth section*/  
+.forth-section p{
+    width: auto;
+}
+.forth-section img{
+  margin: 20px;
+}
+.info-4 {
+    width: auto;
+}
+ /*fifth section */
+ .fifth-section{
+    display: flex;
+    flex-direction: column-reverse;
+
+ }
+ .info-5 {
+    width: auto;
+}
+ .fifth-section p{
+    width: 450px;
+
+ }
+ .fifth-section img{
+    margin: 20px;
+ }
+ .img-4 {
+    width: auto;
+}
+    
+ /*footer area*/
+.foot-area{
+    display: block;
+    margin: auto;
+    width: auto;
+    
+}
+.foot-area .foot-head-1 {
+    margin-top: 50px;
+}
+.foot-area .skills {
+    margin-top: 50px;
+}
+.foot-area .contact {
+    margin-top: 50px;
+}
+/*Contact Page*/
+#mainform{
+    width: 360px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'fauna One', serif;
+    display: block;
+
+}
+#form{
+    border-radius: 2px;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 250px;
+    margin: 20px 250px 50px 35px;
+    float: left;
+}
+
+}
+
+@media screen and (max-width: 450px){
+   .foot-area{
+    width: 520px;
+   }
+}
