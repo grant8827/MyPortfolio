@@ -21,10 +21,10 @@
 
 
     .details{
-        width: 450px;
+        width: -webkit-fill-available;
         height: auto;
         background-color: rgb(236, 243, 250);
-        margin: auto;
+        margin: 10px;
         border-radius: 20px;
         padding: 10px;
       
@@ -166,14 +166,26 @@ width: auto;
     font-size: 14px;
     font-weight: bold;
     width: 250px;
-    margin: 20px 250px 50px 35px;
+    margin: auto;
     float: left;
+    margin-bottom: 30px;
 }
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 499px){
    .foot-area{
     width: 520px;
+   }
+   .details{
+    width: auto;
+    margin: ;
+   }
+   body{
+    contain: content;
+   }
+   .img-1 img, .second-section img, 
+   .second-section img, .fifth-section img, .foot-area, .ab_icon  {
+    width: -webkit-fill-available;
    }
 }

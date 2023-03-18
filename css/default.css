@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    contain: content;
  background-color: rgb(38, 38, 39);
  align-items: center;
  text-align: center;
